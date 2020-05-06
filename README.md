@@ -3,5 +3,12 @@ After careful online research, there seems to be too much confusion about how to
 
 In detail, I took the model of a reconstructed liver kindly provided by [Suwelack et al.](https://opencas.webarchiv.kit.edu/?q=node/14) and I converted their VTK files in OBJ wavefront meshes.
 
+Here's what you get:
 
+![Liver with an external marker](https://github.com/lodeguns/VTK-OBJ/blob/master/lvertake.gif)
 
+Basic usage:
+
+```
+ python3 vtk_to_obj_converter.py '/your_dir/toconvert_vtks_folder/' -o '/your_dir/converted_objs_folder/'
+```
